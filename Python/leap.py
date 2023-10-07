@@ -1,0 +1,1 @@
+yr=int(input());print("leap year") if((yr%100==0 and yr%400==0) or (yr%100!=0 and yr%4==0)) else print("not a leap year")
